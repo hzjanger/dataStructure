@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/dataStructureStudy/',
+    base: '/dataStructure/',
     title: '数据结构学习笔记',
     description: '登高必自卑，行远必自迩',
     head: [
@@ -56,6 +56,8 @@ module.exports = {
                 title: '排序算法',
                 collapsable: true,
                 children: [
+                    'sort/selectSort',
+                    'sort/insertSort',
                     'sort/quickSort'
                 ]
             }

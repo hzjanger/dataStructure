@@ -58,6 +58,8 @@ module.exports = {
                 children: [
                     'sort/selectSort',
                     'sort/insertSort',
+                    'sort/shellSort',
+                    'sort/mermeSort',
                     'sort/quickSort'
                 ]
             }
